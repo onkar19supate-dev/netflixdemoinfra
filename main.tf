@@ -3,6 +3,7 @@ region = "us-east-1"
 }
 
 resource "aws_instance" "one" {
+subnet_id = "subnet-0fd675f95a1ae9990"
 count = 4
 ami = "ami-052064a798f08f0d3"
 instance_type = "t2.medium"
