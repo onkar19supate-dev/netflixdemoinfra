@@ -4,7 +4,7 @@ region = "ap-south-2"
 
 resource "aws_instance" "one" {
 count = 4
-ami = "ami-0256158c639f8fa6b"
+ami = "ami-0bd4cda58efa33d23"
 instance_type = "t3.small"
 key_name = "OnkarHYDkeypair"
 vpc_security_group_ids = ["sg-0067493f601890902"]
